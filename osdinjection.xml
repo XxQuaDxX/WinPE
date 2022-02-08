@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InjectionFiles>
+  <Architecture imgArch="x64">
+	<FileList source="SCCM">
+      <File name="*">
+        <LocaleNeeded>false</LocaleNeeded>
+        <Source>Windows</Source>
+        <Destination>Windows</Destination>
+      </File>
+      <File name="*">
+        <LocaleNeeded>false</LocaleNeeded>
+        <Source>PoshModules</Source>
+        <Destination>Program Files\WindowsPowerShell\Modules</Destination>
+      </File>
+      <File name="*">
+        <LocaleNeeded>false</LocaleNeeded>
+        <Source>Custom</Source>
+        <Destination>Custom</Destination>
+      </File>
+    </FileList>
+  </Architecture>
+</InjectionFiles>
